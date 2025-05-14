@@ -1,0 +1,47 @@
+
+h3 {
+    color: hsl(154, 23%, 12%);
+    text-size-adjust: 300;
+    text-align: justify;
+    background-color: rgb(204, 153, 153)
+}
+
+#page1 {
+    color: #162552;
+    text-overflow: clip;
+    margin: auto;
+}
+
+#img1 {
+   width: auto;
+   height: auto;
+   display: block;
+   padding: 1rem;
+   max-width: min-content;
+   transition: transform 0.1s ease-in-out;
+
+}
+
+.page2 {
+    -ms-text-justify: auto;
+    color: #781212;
+    text-align: center;
+    text-wrap: 20em;
+}
+body {
+    background-color: #e7e2d9;
+}
+
+.arrowfinger {
+    width: 16px;
+    height: auto;
+    margin-left: 6px
+    vertical-align: middle
+}
+.nextpage{
+    background-color: rgb(205, 117, 54);
+}
+
+.expli{
+    background-color: aquamarine;
+}
