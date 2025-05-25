@@ -43,7 +43,10 @@ body {
     margin-left: 6px;
 }
 .nextpage{
-    background-color: rgb(205, 117, 54);
+    background-color: rgb(206, 121, 60);
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 
 .expli{
@@ -63,6 +66,8 @@ body {
     text-justify: inter-word;   
     margin: auto;
     background-color: #094046;
+    margin-top: 15x;
+    margin-bottom: 15x;
 }
 .css_intro{
     text-align: center;
@@ -139,5 +144,5 @@ audio {
     gap: 10px;
     list-style: none;
     padding-left: 0;
-    margin: 25px ;
+    margin: 15px 0;
 }
