@@ -114,3 +114,30 @@ audio {
     display: block;
 }
 
+.socal-list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 5px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.social-icons {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    display: block;
+}   
+.social-icons-list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding-left: 0;
+    margin: 25px ;
+}
