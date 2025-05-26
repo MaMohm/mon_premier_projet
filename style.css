@@ -27,7 +27,7 @@ h3 {
     text-align: center;
     text-justify: inter-word;   
     margin: auto;
-    background-color: rgb(208, 240, 26);
+    background-color: rgb(165, 190, 18);
 }
 body {
     background-image: url('https://cdn.pixabay.com/photo/2022/12/11/20/41/programming-7649719_1280.jpg');
@@ -65,7 +65,7 @@ body {
     text-align: center;
     text-justify: inter-word;   
     margin: auto;
-    background-color: #094046;
+    background-color: #64dade;
     margin-top: 15x;
     margin-bottom: 15x;
 }
@@ -73,19 +73,22 @@ body {
     text-align: center;
     text-justify: inter-word;   
     margin: auto;
-    background-color: #8d8402a6;
+    background-color: #636220a6;
 }
 .textcolor{
-    color: rgb(192, 189, 11);
+    color: black;
 }
 
 a:hover {
-    color: #ff0000;
+    color: hsl(110, 55%, 69%);
     text-decoration: none;
 }
 a{
-    color: #f6f6f6;
+    color: #1f1c6eef;
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    background-color: #a56010;
 }
 .thenote{
     text-wrap: auto;
@@ -95,7 +98,7 @@ a{
     text-align: center;
     text-justify: inter-word;   
     margin: auto;
-    background-color: #7e8e24;
+    background-color:#636220a6
 }
 .ouinon{
     text-align: center;
@@ -121,6 +124,7 @@ a{
     cursor: pointer;
     margin: 10px;
     display: block;
+
 }
 
 @media (min-width: 768px) {
@@ -130,7 +134,10 @@ a{
         display: none;
         gap: 50px;
         justify-content: center;
-
+        background-image: url('images/blaise.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 20px;
     }
 }
 audio {
