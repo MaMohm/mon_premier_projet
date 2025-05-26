@@ -105,12 +105,33 @@ a{
 }
 
 .menu {
-  position: fixed;
-  top: 13%;
-  right: 0;
-  width: 200px;
-  height: 100vh;
-  padding: 20px;
+  display: none;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center !important;
+}
+.menu.show {
+    display: flex;
+}
+
+.menu-toggle {
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        display: flex !important; /* Always visible on large screens */
+        flex-direction: row;
+        display: none;
+        gap: 50px;
+        justify-content: center;
+
+    }
 }
 audio {
     width: 100%;
@@ -119,18 +140,19 @@ audio {
     display: block;
 }
 
-.socal-list {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    padding: 5px 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 9999;
+.social-icons-list {
+    background-color: #70986d; /* Optional: background color for the icons section */;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: flex-end; /* Align icons to the right */
+    align-items: center; /* Vertically center icons */
+    border-right: 30px solid  #d41d1d; /* Optional: add a right border for separation */
+    width: 100%;
+    padding: 10px;
+    list-style: none;
+    margin: 0 0 25px 0; /* Bottom margin only */
+    gap: 40px; /* Adjust gap as needed */
+    box-sizing: border-box; /* Prevent overflow */
+    overflow-x: auto; /* Allow horizontal scroll if needed */
 }
 
 .social-icons {
@@ -138,11 +160,4 @@ audio {
     height: 24px;
     object-fit: contain;
     display: block;
-}   
-.social-icons-list {
-    display: flex;
-    gap: 10px;
-    list-style: none;
-    padding-left: 0;
-    margin: 15px 0;
 }
