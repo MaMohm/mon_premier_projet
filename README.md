@@ -43,5 +43,3 @@ CSS Apprendre FR actions
 
 CSS Avancé actions
 
-💡 Ce site évolue constamment : revenez souvent pour découvrir les nouveautés.
-👉 Pensez à visiter la seconde page pour aller plus loin !
